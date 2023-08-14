@@ -1,3 +1,5 @@
+package com.tictactoe;
+
 import java.util.Scanner;
 
 public class App {
@@ -65,7 +67,7 @@ public class App {
                 }
             }
 
-            if(boxAvailable == false){
+            if(!boxAvailable){
                 winner = 3;
                 continue;
             }
@@ -82,7 +84,6 @@ public class App {
                (box[0]=='O' && box[3]=='O' && box[6]=='O') || (box[1]=='O' && box[4]=='O' && box[7]=='O') || (box[2]=='O' && box[5]=='O' && box[8]=='O') ||
                (box[0]=='O' && box[4]=='O' && box[8]=='O') || (box[2]=='O' && box[4]=='O' && box[6]=='O')){
                 winner = 2;
-                continue;
             }
         }
 
