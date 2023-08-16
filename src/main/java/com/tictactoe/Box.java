@@ -2,7 +2,7 @@ package com.tictactoe;
 
 public class Box {
 
-    private char box[] = new char[9];
+    private char[] box = new char[9];
 
     public Box() {
         initBox();

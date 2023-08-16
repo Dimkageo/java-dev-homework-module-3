@@ -9,7 +9,7 @@ public class Game {
     private static final Logger logger = LoggerFactory.getLogger(Game.class);
     private final Box box = new Box();
 
-    private final static Scanner scan = new Scanner(System.in);
+    private static final Scanner scan = new Scanner(System.in);
 
     private byte input() {
         while (true) {

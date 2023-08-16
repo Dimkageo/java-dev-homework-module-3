@@ -1,7 +1,5 @@
 package com.tictactoe;
 
-import java.util.Scanner;
-
 public class App {
 
     static Game game;
