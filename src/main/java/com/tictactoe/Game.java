@@ -58,6 +58,7 @@ public class Game {
 
         return false;
     }
+
     enum WINRESULT {
         WIN, LOST, DRAW, GOING
     }
@@ -94,8 +95,9 @@ public class Game {
             logger.info(MESAGE_ON_DRAW);
         }
     }
-    private final static String MESAGE_ON_WIN = "\nYou won the game!\nCreated by Shreyas Saha. Thanks for playing!";
-    private final static String MESAGE_ON_LOST ="\nYou lost the game!\nCreated by Shreyas Saha. Thanks for playing!";
-    private final static String MESAGE_ON_DRAW ="\nIt's a draw!\nCreated by Shreyas Saha. Thanks for playing!";
+
+    private static final String MESAGE_ON_WIN = "\nYou won the game!\nCreated by Shreyas Saha. Thanks for playing!";
+    private static final String MESAGE_ON_LOST = "\nYou lost the game!\nCreated by Shreyas Saha. Thanks for playing!";
+    private static final String MESAGE_ON_DRAW = "\nIt's a draw!\nCreated by Shreyas Saha. Thanks for playing!";
 
 }
